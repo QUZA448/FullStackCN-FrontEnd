@@ -2,7 +2,7 @@
 
 A modern, fully-functional React frontend for a Stack Overflow-like forum application.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 forum-frontend-app/
@@ -38,7 +38,7 @@ forum-frontend-app/
 └── README.md                      # This file
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js 14+ and npm/yarn
@@ -69,52 +69,52 @@ forum-frontend-app/
    ```
    App will open at `http://localhost:3000`
 
-## 📋 Features Implemented
+## Features Implemented
 
-### 🔐 Authentication
+### Authentication
 - User registration with email validation
 - Login with JWT tokens
 - Auto-logout on token expiration
 - Redux state management for auth
 
-### ❓ Questions
+### Questions
 - List all questions with filters (newest, trending, unanswered)
 - View question details with all answers
 - Create new questions with tags
 - Edit/delete own questions
 - View count tracking
 
-### 💬 Answers
+### Answers
 - Post answers to questions
 - Vote on answers (upvote/downvote)
 - Mark best answer (question owner only)
 - Edit/delete own answers
 
-### ⭐ Voting System
+### Voting System
 - Upvote/downvote questions and answers
 - Real-time reputation updates
 - Prevent voting on own content
 - Vote removal support
 
-### 🏷️ Tags
+### Tags
 - Browse all tags
 - Filter questions by tags
 - Create new tags when asking
 - Tag suggestions
 
-### 👤 User Profiles
+### User Profiles
 - View user reputation points
 - See all user's questions
 - See all user's answers
 - User stats dashboard
 
-### 🔍 Search & Discovery
+### Search & Discovery
 - Search questions by title
 - Filter by tags
 - Browse trending/unanswered
 - Tag-based filtering
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component | Technology |
 |-----------|-----------|
@@ -125,7 +125,7 @@ forum-frontend-app/
 | Styling | Tailwind CSS |
 | Build Tool | React Scripts |
 
-## 📡 API Integration
+## API Integration
 
 ### Authentication Endpoints
 ```
@@ -170,7 +170,7 @@ GET    /api/tags                           - All tags
 GET    /api/tags/:name/questions           - Questions by tag
 ```
 
-## 🎨 UI/UX Features
+## UI/UX Features
 
 - **Responsive Design** - Mobile, tablet, desktop compatible
 - **Clean Layout** - Card-based interface with proper spacing
@@ -180,7 +180,7 @@ GET    /api/tags/:name/questions           - Questions by tag
 - **Search Bar** - Quick question search
 - **Tag Sidebar** - Popular tags on homepage
 
-## 🔐 Security Features
+## Security Features
 
 - JWT token stored in localStorage
 - Axios interceptors for auto-token injection
@@ -188,7 +188,7 @@ GET    /api/tags/:name/questions           - Questions by tag
 - CORS-enabled API calls
 - Password validation on registration
 
-## 📦 Build & Deploy
+## Build & Deploy
 
 ### Development Build
 ```bash
@@ -214,7 +214,7 @@ npm run build
 git push heroku main
 ```
 
-## 🧪 Testing
+## Testing
 
 Add unit tests:
 ```bash
@@ -226,7 +226,7 @@ Test coverage:
 npm test -- --coverage
 ```
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### API Connection Issues
 - Ensure backend is running on `http://localhost:5000`
@@ -249,7 +249,7 @@ REACT_APP_API_URL=http://localhost:5000/api      # Backend API URL
 REACT_APP_JWT_TOKEN_KEY=forum_jwt_token          # LocalStorage key
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create feature branch (`git checkout -b feature/amazing-feature`)
@@ -257,11 +257,11 @@ REACT_APP_JWT_TOKEN_KEY=forum_jwt_token          # LocalStorage key
 4. Push to branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
+## License
 
 This project is part of the DevForum Full-Stack Application.
 
-## 🎯 Future Enhancements
+## Future Enhancements
 
 - [ ] Real-time notifications
 - [ ] Comment system for answers
@@ -275,5 +275,3 @@ This project is part of the DevForum Full-Stack Application.
 - [ ] Advanced search filters
 
 ---
-
-**Built with ❤️ for the DevForum Community**
